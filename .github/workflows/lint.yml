@@ -3,12 +3,10 @@ name: lint
 on:
   pull_request:
     branches:
-      - master
-      - develop
+      - gnome-45
   push:
     branches:
-      - master
-      - develop
+      - gnome-45
 
 jobs:
   Linting:
